@@ -1,0 +1,24 @@
+{
+  "name": "tailwindcss-coffee-style",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start:dev": "live-server public"
+  },
+  "keywords": [],
+  "author": "cuongcao1603",
+  "license": "ISC",
+  "description": "cuongcao1603",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "tailwindcss": "^3.4.7"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "tailwindcss-coffee-style": "file:"
+  }
+}
