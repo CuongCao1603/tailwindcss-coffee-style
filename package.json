@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
-    "start:dev": "live-server public"
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --minify",
+    "start:dev": "live-server public",
+    "deploy": "npm run build:css"
   },
   "keywords": [],
   "author": "cuongcao1603",
   "license": "ISC",
   "description": "cuongcao1603",
   "devDependencies": {
-    "live-server": "^1.2.2",
+    "live-server": "^1.2.0",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.5",
     "tailwindcss": "^3.4.7"
