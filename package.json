@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --minify",
-    "start:dev": "live-server public",
-    "deploy": "npm run build:css"
+    "build:css": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "start:dev": "live-server public"
   },
   "keywords": [],
   "author": "cuongcao1603",
